@@ -1,0 +1,44 @@
+body{
+    font-size:large;
+    font-family:sans-serif;
+    padding:15px;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+    background-color: rgb(247, 247, 230);
+    margin: 40px 50px;
+    padding:15px 10px 20px 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width :90% ;
+    padding: 10px;
+    border: 2px solid rgba(158, 158, 158, 0.679);
+    margin: 15px;
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: aqua;
+ border-radius: 5px;
+ border:none; 
+ cursor:pointer;
+ padding:10px 15px;
+}
